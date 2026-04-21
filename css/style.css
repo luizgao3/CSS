@@ -189,3 +189,45 @@ iframe, video {
     border: 8px solid #000; /* Borda grossa preta (Oversized) */
     box-shadow: 10px 10px 0px #CCFF00; /* Sombra verde neon "seca" */
 }
+/* --- Estilização da Logo (Imagem + Texto) --- */
+
+/* Container que alinha imagem e texto lado a lado */
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente no centro */
+    text-decoration: none; /* Remove sublinhado do link */
+    gap: 15px; /* Espaço entre a imagem e o texto */
+    transition: transform 0.3s ease; /* Efeito suave no hover */
+}
+
+/* Pseudo-classe: Efeito ao passar o mouse na logo completa */
+.logo-container:hover {
+    transform: scale(1.03); /* Leve zoom */
+}
+
+/* Controle do tamanho da imagem da logo */
+.logo-img {
+    height: 60px; /* Ajuste a altura conforme necessário */
+    width: auto;  /* Mantém a proporção */
+    display: block;
+}
+
+/* Estilo do Texto "MAXIM" (Mantendo o que já estava) */
+.logo-text {
+    font-family: 'Archivo Black', sans-serif; /* Fonte robusta */
+    font-size: 2.5rem; /* Tamanho grande */
+    color: var(--dark); /* Cor padrão (preto no fundo off-white) */
+    text-transform: uppercase;
+    margin: 0; /* Remove margens padrão */
+    letter-spacing: -2px; /* Letras mais juntas (Oversized) */
+}
+
+/* --- Ajuste do Header Geral (Flexbox) --- */
+header {
+    display: flex;
+    justify-content: space-between; /* Logo na esquerda, Menu na direita */
+    align-items: center;
+    padding: 30px 5%; /* Espaçamento interno */
+    background-color: var(--light); /* Fundo Off-White */
+    border-bottom: 8px solid var(--dark); /* Borda grossa inferior */
+}
