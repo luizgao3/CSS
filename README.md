@@ -1,2 +1,2 @@
-# CSS
-
+Luiz Gabriel Abreu Oliveira
+A MAXIM é uma vitrine de streetwear fictícia desenvolvida com HTML5 e CSS3, que utiliza uma identidade visual "oversized" para destacar a cultura sneaker. O projeto aplica layouts em Flexbox, tipografia robusta e uma paleta urbana industrial, cumprindo requisitos técnicos como navegação padronizada em quatro páginas, formulário de contato multifuncional, integração de mídia via YouTube e organização semântica de conteúdos, garantindo uma experiência imersiva, centralizada e totalmente estilizada.
